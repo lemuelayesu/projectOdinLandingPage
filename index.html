@@ -2,78 +2,78 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
 </head>
 
 <body>
-    <div class="webpage">
+    <header>
 
-        <div class="header">
-            <div class="logo">
-                <h1>Logo</h1>
-            </div>
-            <div nav-items>
-                <ul>
-                    <li>header link one </li>
-                    <li>header link two </li>
-                    <li>header link three</li>
-                </ul>
-            </div>
+        <div class="logo">Header Logo</div>
+        <nav>
+            <ul>
+                <li>header link one </li>
+                <li>header link two </li>
+                <li>header link three</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower
+                contrast</p>
+            <button>Sign Up</button>
         </div>
-        <div class="hero">
-            <div class="left-hero">
-                <h1>This websie is awesome</h1>
-                <p>This website has some subtext that goes under the main title. It's a smaller font and the color is
-                    lower contrast</p>
-                <button>Sign Up</button>
-            </div>
-            <div class="right-hero">
-                <div>
-                    <p>this is a placeholder for an image</p>
-                </div>
-            </div>
-        </div>
-        <div class="information">
-            <div class="info">
-                <h1>Some random information</h1>
-                <!-- box then text -->
-                <div class="info-card1">
-                    <div class="info-card-box"></div>
-                    <p class="card-details">This is some subtext under an illustration</p>
-                </div>
-                <div class="info-card2">
-                    <div class="info-card-box"></div>
-                    <p class="card-details">This is some subtext under an illustration</p>
-                </div>
-                <div class="info-card3">
-                    <div class="info-card-box"></div>
-                    <p class="card-details">This is some subtext under an illustration</p>
-                </div>
-                <div class="info-card4">
-                    <div class="info-card-box"></div>
-                    <p class="card-details">This is some subtext under an illustration</p>
-                </div>
+        <div class="hero-image">
 
-            </div>
-        </div>
-        <div class="quote">
-            <p>This is an inspiring quote, or a testimonial from a customer.Maybe it's just filling up space or maybe
-                people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <h4>-Thor, God of thunder</h4>
-        </div>
-        <div class="call-to-action">
-            <div class="signup-box">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button over there!</p>
-                <button>Sign up</button>
-            </div>
-        </div>
-        <div class="footer">
-            <p>Copyright © The Ayesu project 2025</p>
-        </div>
-    </div>
-</body>
+            <img src="./chris-saran-BSCHQtzv98Y-unsplash.jpg" alt="sun-set at a beach">
 
-</html>
+        </div>
+    </section>
+    <section class="info">
+        <h2>Some random information</h2>
+        <div class="info-cards">
+            <div class="card">
+                <div class="image-placeholder"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="image-placeholder"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="image-placeholder"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="image-placeholder"></div>
+                <p>this is some subtext under an illustration image</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote">
+        <blockquote>
+            This is an inspiring quote, or a testimonial from a customer. Maybe it’s just filling up space, or maybe
+            people will actually read it. Who knows? All I know is that it looks nice.
+        </blockquote>
+        <footer> - Thor, God of Thunder</footer>
+    </section>
+
+    <section class="cta">
+        <div class="cta-box">
+            <div class="cta-text">
+                <h3>Call to action! It’s time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button>Sign up</button>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>Copyright © The Ayesu Project 2025</p>
+    </footer>
